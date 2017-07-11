@@ -1,12 +1,12 @@
 /* CSS declarations go here */
 #buttonclicker {
   color: orange;
-},
+}
 
 #links {
   color: green;
-},
+}
 
 #links a:hover {
   color: purple;
-};
+}
