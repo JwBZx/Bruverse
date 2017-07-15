@@ -1,12 +1,108 @@
 /* CSS declarations go here */
-#buttonclicker {
-  color: orange;
+body {
+  font-family: sans-serif;
+  background-color: #ff4300;
+
+  position: absolute;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+
+  padding: 0;
+  margin: 0;
+
+  font-size: 16px;
 }
 
-#links {
-  color: green;
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100%;
+  background: green;
 }
 
-#links a:hover {
-  color: purple;
+header {
+  background: #F08080;
+  padding: auto;
+  position: relative;
+}
+
+#login-buttons {
+  display: block;
+}
+
+h1 {
+  font-size: 2.0em;
+  margin: auto;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 3em;
+}
+
+form {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.new-task input {
+  box-sizing: border-box;
+  padding: 10px 0;
+  background: transparent;
+  border: 10px;
+  width: 100%;
+  padding-right: 100px;
+  font-size: 3em;
+}
+
+.new-task input:focus{
+  outline: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  background: pink;
+}
+
+.delete {
+  float: right;
+  font-weight: bold;
+  background: none;
+  font-size: 1.5em;
+  border: none;
+  position: relative;
+}
+
+li {
+  position: relative;
+  list-style: none;
+  padding: 15px;
+  border-bottom: #e2a4e3 solid 5px;
+}
+
+li .text {
+  margin-left: 10px;
+}
+
+li.checked {
+  color: #888888;
+}
+
+li.checked .text {
+  text-decoration: line-through;
+}
+
+li.private {
+  background: #eeeeee;
+  border-color: #dddddd;
+}
+
+header .hide-completed {
+  float: right;
+}
+
+.toggle-private {
+  margin-left: 5px;
 }
